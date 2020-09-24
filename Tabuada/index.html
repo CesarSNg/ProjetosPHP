@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário xD</title>
+    </head>
+    <H2>Formulario</H2>
+    <form action="Formulario.php" name="Cadastro" method="POST">
+
+    <div>
+        <label><h3>O que você achou do site?</h3></label>
+        <input type="radio" name="av" value="MB"> Muito bom
+        <input type="radio" name="av" value="B"> Bom
+        <input type="radio" name="av" value="R"> Regular 
+        <input type="radio" name="av" value="I"> Um lixo
+      </div><br>
+
+    <div>
+        <label for="name"><h3>Qual sessão você mais gostou?</h3></label>
+        <select name="Gostou" id="">
+        <option value="">Em Cartaz</option>
+        </select>
+        Outra: <input type="text" class="" id="">
+    </div><br>
+
+    <h3>Digite seus comentários no espaço abaixo:</h3>
+    <textarea name="msg" id="" cols="50" rows="5"></textarea>
+    <h3>Diga-nos como entrar em contato com você:</h3>
+    Nome: <input type="text" name="nome" id=""><br>
+    Email: <input type="text" name="email" id=""><br>
+    Fone: <input type="text" name="fone" id=""><br>
+    Fax: <input type="text" name="fax" id=""><br><br>
+
+    <input type="checkbox" name="receber" id=""/> Quero receber as novidades do site por email <br><br>
+
+    <input type="submit" name="Enviar Dados" id="">
+    <input type="reset" name="Limpar dados" id="">
+
+  </form>
+</html>
